@@ -215,6 +215,10 @@ main {
     font-size: large;
 }
 
+#submitBut:hover{
+  opacity:0.9;
+}
+
 #translate-output {
     box-sizing: border-box;
     width: 100%;
