@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+:root {
+  --primary-color: #B91C1C;
+  --dark-gray: #6b7280;
+  --off-white: #e5e7eb;
+  --black: #333333;
+  --width-break: 600px;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+hr {
+  margin: 0.5rem 1rem;
+}
+/*** container***/
+.container {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/*** links ***/
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link:hover {
+  opacity: 0.6;
+}
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+/** look into BEM naming convention in CSS**/
+
+/** lists **/
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  /* padding: 0rem 0.5rem; */
+}
+
+/** navigation **/
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  /* border-bottom-left-radius: 1rem; */
+  margin: 0;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+  font-size: 1.01rem;
+}
+.hero-img {
+    max-width: 200px;
+    /* margin: auto; */
+      }
+/** header **/
+.hero {
+  padding: 2rem;
+  text-align: left;
+}
+
+.hero .hero-img {
+  max-width: 200px;
+  display: inline;
+  margin: auto;
+  float: left;
+}
+
+.hero .hero-heading {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: var(--dark-gray);
+}
+
+.hero .hero-heading .inv {
+  color: var(--primary-color);
+}
+
+/** section **/
+
+.section h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+/** social media icons**/
+
+.fa {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 2.5rem
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background:#2867B2;
+  color: white;
+}
+
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+
+.fa-github{ 
+  background: black;
+  color: white;
+}
+
+/** to showcase blogs **/
+
+.showcase-list {
+  padding: 2rem;
+}
+
+
+/** text area **/
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+#submitBut {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Lora', cursive;
+    font-size: large;
+}
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
