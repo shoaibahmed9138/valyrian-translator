@@ -4,6 +4,8 @@ Valyrian is a language created by David Peterson for the GOT franchise. This pro
 
 I implemented this project using vanillaJS, CSS3 and no frameworks. The API for Valyrian translation is avalaible at https://funtranslations.com.
 
+This project helped me understand the GET method in JS using fetch()
+
 
 
  
